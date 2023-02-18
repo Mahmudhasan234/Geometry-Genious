@@ -40,10 +40,10 @@
                           <h3 class="fs-3 fw-bold mt-3">Triangle</h3>
                           <p class="text-secondary">Area (A) = 0.5 X b X h</p>
                          <div class="d-flex justify-content-center align-items-center gap-1">
-                             <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                             <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                             <p><input  id="triangle-base-input" placeholder="b" class="w-75 rounded input-field  p-1" type="text"> cm</p>
+                             <p><input  id="triangle-height-input" placeholder="h" class="w-75 rounded input-field  p-1" type="text"> cm</p>
                          </div>
-                          <button class="btn btn-primary my-3 w-100 ">Calculate</button>
+                          <button id="triangle-calculate" class="btn btn-primary my-3 w-100 ">Calculate</button>
                       </div>
                     </div>
                    
@@ -52,12 +52,12 @@
                       <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
                           <img src="./Interactive Geometry Book/Rectangle 9-1.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Rectangle</h3>
-                          <p class="text-secondary">Area (A) = W X I</p>
+                          <p class="text-secondary">Area (A) = W X l</p>
                          <div class="d-flex justify-content-center align-items-center gap-1">
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                          <p><input id="rectangle-width-input" placeholder="w" class="w-75 rounded input-field p-1" type="text"> cm</p>
+                          <p><input id="rectangle-length-input" placeholder="l" class="w-75 rounded input-field p-1" type="text"> cm</p>
                          </div>
-                          <button class="btn btn-primary my-3 w-100 ">Calculate</button>
+                          <button id="rectangle-calculate" class="btn btn-primary my-3 w-100 ">Calculate</button>
                       </div>
                   </div>
                  
@@ -68,8 +68,8 @@
                           <h3 class="fs-3 fw-bold mt-3">Parallelogram</h3>
                           <p class="text-secondary">Area (A) = b X h</p>
                          <div class="d-flex justify-content-center align-items-center gap-1">
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                          <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
+                          <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
                          </div>
                           <button class="btn btn-primary my-3 w-100 ">Calculate</button>
                       </div>
@@ -86,8 +86,8 @@
                             <h3 class="fs-3 fw-bold mt-3">Rhombus</h3>
                             <p class="text-secondary">Area (A) = 0.5 X d <sub>1</sub> X d <sub>2</sub></p>
                            <div class="d-flex justify-content-center align-items-center gap-1">
-                            <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                            <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                            <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
+                            <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
                            </div>
                             <button class="btn btn-primary my-3 w-100 ">Calculate</button>
                         </div>
@@ -100,21 +100,21 @@
                               <h3 class="fs-3 fw-bold mt-3">Pentagon</h3>
                               <p class="text-secondary">Area (A) = 0.5 X p X h</p>
                              <div class="d-flex justify-content-center align-items-center gap-1">
-                              <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                              <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                              <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
+                              <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
                              </div>
                               <button class="btn btn-primary my-3 w-100 ">Calculate</button>
                           </div>
                     </div>
                     <!-- Ellipse -->
                     <div >
-                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body rounded-3">
+                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
                           <img src="./Interactive Geometry Book/./Ellipse 1.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Ellipse</h3>
                           <p class="text-secondary">Area (A) = πab</p>
                          <div class="d-flex justify-content-center align-items-center gap-1">
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                          <p><input class="w-75 rounded input-field" type="text"> cm</p>
+                          <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
+                          <p><input placeholder="" class="w-75 rounded input-field p-1" type="text"> cm</p>
                          </div>
                           <button class="btn btn-primary my-3 w-100 ">Calculate</button>
                       </div>
@@ -123,13 +123,26 @@
             </div>
             <div>
                 <div >
-                    <div class="d-flex flex-column justify-content-center align-items-center shadow p-3 mb-5 bg-body rounded-3">
+                    <div class="area-calculation shadow p-3 mb-5 bg-body rounded-3">
                         
-                        <h3 class="fs-3 fw-bold mt-3">Area Calculation</h3>
-                       <div class="d-flex justify-content-center align-items-center mx-5">
-                        <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                        <p><input class="w-75 rounded input-field" type="text"> cm</p>
-                        <button class="btn btn-primary my-3 w-100 ">Calculate</button>
+                        <h3 class="fs-3 fw-bold mt-3 text-center"><u>Area Calculation</u></h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th> Number </th>
+                                    <th>  Value</th>
+                                    <th> Convert</th>
+
+                                </tr>
+                            </thead>
+                            <tbody  id="Calculate-result">
+
+                            </tbody>
+                        </table>
+                        
+                       
+                        </div>
+                        
                        </div>
                     </div>
                 </div>
@@ -141,5 +154,10 @@
 
     </main>
     
+
+
+
+    <script src="./ALL JS/common-functions.js"></script>
+    <script src="./ALL JS/triangle.js"></script>
 </body>
 </html>
