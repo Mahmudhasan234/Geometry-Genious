@@ -1,7 +1,7 @@
-document.getElementById('pentagon-calculate').addEventListener('click', function(){
+document.getElementById('ellipse-calculate').addEventListener('click', function(){
 
-    const inputelement1String =document.getElementById('pentagon-p-input');
-    const inputelement2String =document.getElementById('pentagon-h-input');
+    const inputelement1String =document.getElementById('ellipse-a-input');
+    const inputelement2String =document.getElementById('ellipse-b-input');
     
     const inputElementofValue1 = parseFloat(inputelement1String.value);
     const inputElementofValue2 = parseFloat(inputelement2String.value);
@@ -22,7 +22,7 @@ document.getElementById('pentagon-calculate').addEventListener('click', function
       const tr = document.createElement('tr');
       tr.innerHTML= `<tr>
       <td>${cunter}</td>
-      <td> ${areaOfTRP('pentagon-p-input', 'pentagon-h-input' )} </td>
+      <td> ${areaOfEllipse('ellipse-a-input', 'ellipse-b-input' )} </td>
       <td><button class="btn btn-primary ml-2 position-relative bottom-50"> Convert </button></td> 
       </tr>`
       resultArea.appendChild (tr);
