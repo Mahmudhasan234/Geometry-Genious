@@ -1,3 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.custom-style {
+position: relative;
+left: 20px;
+}
+.input-field{
+    outline: none;
+    border: none;
+    background-color: lightgray;
+}
+img{
+    height: 194px;
+    width: 250px;
+}
