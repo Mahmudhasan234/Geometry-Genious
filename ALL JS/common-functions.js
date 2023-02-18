@@ -18,4 +18,6 @@ function areaOfRP (inputelement1 , inputelement2){
     return totalArea;
 }
 
+let cunter = 0;
+
 
