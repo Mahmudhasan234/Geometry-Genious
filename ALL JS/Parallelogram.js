@@ -27,3 +27,15 @@ document.getElementById('parallelogram-calculate').addEventListener('click', fun
       </tr>`
       resultArea.appendChild (tr);
   })
+  function setBg () {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    const btnbody = document.getElementById('triangle-border')
+    btnbody.style.backgroundColor = "#" + randomColor;
+    
+  }
+  function setBgp() {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    const btnbody = document.getElementById('parallelogram-border')
+    btnbody.style.backgroundColor = "#" + randomColor;
+    
+  }

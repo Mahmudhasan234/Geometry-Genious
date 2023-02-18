@@ -29,3 +29,9 @@ document.getElementById('rhombus-calculate').addEventListener('click', function(
       </tr>`
       resultArea.appendChild (tr);
   })
+  function setBgR() {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    const btnbody = document.getElementById('rhombus-border')
+    btnbody.style.backgroundColor = "#" + randomColor;
+    
+  }

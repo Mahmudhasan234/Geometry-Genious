@@ -20,7 +20,7 @@ document.getElementById('triangle-calculate').addEventListener('click', function
     
 
   cunter+=1;
-  isNumber('triangle-base-input' , 'triangle-height-input')
+  
   
   const resultArea = document.getElementById('Calculate-result')
     const tr = document.createElement('tr');
@@ -31,3 +31,11 @@ document.getElementById('triangle-calculate').addEventListener('click', function
     </tr>`
     resultArea.appendChild (tr);
 })
+function setBg () {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    const btnbody = document.getElementById('triangle-border')
+    btnbody.style.backgroundColor = "#" + randomColor;
+    
+  }
+
+

@@ -28,3 +28,9 @@ document.getElementById('rectangle-calculate').addEventListener('click', functio
     </tr>`
     resultArea.appendChild (tr);
 })
+function setBgr() {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    const btnbody = document.getElementById('rectangle-border')
+    btnbody.style.backgroundColor = "#" + randomColor;
+    
+  }

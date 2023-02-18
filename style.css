@@ -18,3 +18,21 @@ img{
     height: 500px;
     width: 300px;
 }
+#triangle-border{
+    background-color: white;
+}
+#rectangle-border{
+    background-color: white;
+}
+#parallelogram-border{
+    background-color: white;
+}
+#rhombus-border{
+    background-color: white;
+}
+#pentagon-border{
+    background-color: white;
+}
+#ellipse-border{
+    background-color: white;
+}

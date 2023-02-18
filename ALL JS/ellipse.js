@@ -27,3 +27,9 @@ document.getElementById('ellipse-calculate').addEventListener('click', function(
       </tr>`
       resultArea.appendChild (tr);
     })
+    function setBgEllipse() {
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+        const btnbody = document.getElementById('ellipse-border')
+        btnbody.style.backgroundColor = "#" + randomColor;
+        
+      }

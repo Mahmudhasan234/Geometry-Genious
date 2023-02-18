@@ -34,8 +34,8 @@
                 <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mb-5  gap-3">
                    
                     <!-- triangle -->
-                    <div >
-                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                    <div  class="rounded-3">
+                      <div onmouseenter="setBg()" id="triangle-border"class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3 ">
                           <img src="./Interactive Geometry Book/Polygon 1.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Triangle</h3>
                           <p class="text-secondary">Area (A) = 0.5 X b X h</p>
@@ -48,8 +48,8 @@
                     </div>
                    
                     <!-- rectangle -->
-                    <div >
-                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                    <div class="rounded-3">
+                      <div onmouseenter="setBgr()" id="rectangle-border"  class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3">
                           <img src="./Interactive Geometry Book/Rectangle 9-1.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Rectangle</h3>
                           <p class="text-secondary">Area (A) = W X l</p>
@@ -62,8 +62,8 @@
                   </div>
                  
                   <!-- Parallelogram -->
-                  <div >
-                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                  <div  class="rounded-3" >
+                      <div onmouseenter="setBgp()" id="parallelogram-border" class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3">
                           <img src="./Interactive Geometry Book/Rectangle 10.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Parallelogram</h3>
                           <p class="text-secondary">Area (A) = b X h</p>
@@ -80,8 +80,8 @@
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 gap-3">
                         
                         <!-- Rhombus -->
-                      <div >
-                        <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                      <div class="rounded-3">
+                        <div onmouseenter="setBgR()" id="rhombus-border"  class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3">
                             <img src="./Interactive Geometry Book/Rectangle 11.png" alt="">
                             <h3 class="fs-3 fw-bold mt-3">Rhombus</h3>
                             <p class="text-secondary">Area (A) = 0.5 X d <sub>1</sub> X d <sub>2</sub></p>
@@ -95,7 +95,7 @@
 
                       <!-- Pentagon -->
                       <div >
-                          <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                          <div onmouseenter="setBgpentagon()" id="pentagon-border" class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3">
                               <img src="./Interactive Geometry Book/Rectangle 9.png" alt="">
                               <h3 class="fs-3 fw-bold mt-3">Pentagon</h3>
                               <p class="text-secondary">Area (A) = 0.5 X p X h</p>
@@ -107,8 +107,8 @@
                           </div>
                     </div>
                     <!-- Ellipse -->
-                    <div >
-                      <div class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5 bg-body rounded-3">
+                    <div>
+                      <div onmouseenter="setBgEllipse()" id="ellipse-border" class="d-flex flex-column justify-content-center align-items-center shadow-lg p-5 mb-5  rounded-3">
                           <img src="./Interactive Geometry Book/./Ellipse 1.png" alt="">
                           <h3 class="fs-3 fw-bold mt-3">Ellipse</h3>
                           <p class="text-secondary">Area (A) = πab</p>
@@ -123,7 +123,7 @@
             </div>
             <div>
                 <div >
-                    <div class="area-calculation shadow p-3 mb-5 bg-body rounded-3">
+                    <div class="area-calculation shadow p-3 mb-5  rounded-3">
                         
                         <h3 class="fs-3 fw-bold mt-3 text-center"><u>Area Calculation</u></h3>
                         <table class="table">
